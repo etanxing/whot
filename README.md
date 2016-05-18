@@ -50,7 +50,7 @@ The tasks are as follows:
 `gulp --production`: Same as `gulp build --production` also run `gulp test` and  not boot up production server
 
 `gulp serve`: Compiles preprocessors and boots up development server
-`gulp serve --open`: Same as `gulp serve` but will also open up site/app in your default browser
+`gulp serve --open`: Same as `gulp serve` but will also open up site/app in your default browser (Auto-refresh may not work)
 `gulp serve --production`: Same as `gulp serve` but will run all production tasks so you can view the site/app in it's final optimized form
 
 `gulp test`: Lints all `*.js` file in the `source` folder using eslint and runs all `*.test.js` file unit tests through [Karma](http://karma-runner.github.io/0.13/index.html) and Mocha + Chai
