@@ -1,20 +1,16 @@
-# Sample readme
-
-Generated on 2016-05-18 using
-[generator-yeogurt@1.5.2](https://github.com/larsonjj/generator-yeogurt)
+# Anonymous
 
 ## Description
 
-This is an example readme file.
-Describe your site/app here.
+A Frontend development boilerplate.
 
 ## Technologies used
 
 JavaScript
-- [Browserify](http://browserify.org/) with ES6/2015 support through [Babel](https://babeljs.io/)
+- [Webpack](https://webpack.github.io) with ES6/2015 support through [Babel](https://babeljs.io/)
 - [Node](https://nodejs.org/)
 
-Testing
+Testing (**NOT WORKING ATM**)
 - [Karma](http://karma-runner.github.io/0.13/index.html)
 - [Mocha](http://mochajs.org/)
 
@@ -41,13 +37,17 @@ Code Management
 - [Editorconfig](http://editorconfig.org/)
 - [Git](https://git-scm.com/)
 
+## Get started
+* `npm install`
+* `gulp serve`
 
+If you get the error *Error: Cannot find module 'node-sass'*, `npm install node-sass --save-dev` again.
 ## Automated tasks
 
 This project uses [Gulp](http://gulpjs.com) to run automated tasks for development and production builds.
 The tasks are as follows:
 
-`gulp --production`: Same as `gulp serve --production` also run `gulp test` and  not boot up production server
+`gulp --production`: Same as `gulp build --production` also run `gulp test` and  not boot up production server
 
 `gulp serve`: Compiles preprocessors and boots up development server
 `gulp serve --open`: Same as `gulp serve` but will also open up site/app in your default browser
@@ -57,3 +57,5 @@ The tasks are as follows:
 `gulp test --watch`: Same as `gulp test` but will constantly watch `*.test.js` files and rerun tests when changes are detected
 
 ***Adding the `--debug` option to any gulp task displays extra debugging information (ex. data being loaded into your templates)***
+
+
