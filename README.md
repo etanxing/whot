@@ -19,6 +19,7 @@ Styles
 
 Markup
 - [Jade](http://jade-lang.com/)
+- [Html to Jade](http://html2jade.org/)
 
 Optimization
 - [Imagemin](https://github.com/imagemin/imagemin)
